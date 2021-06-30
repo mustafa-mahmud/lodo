@@ -9,8 +9,8 @@
 	padding: 2rem;
 	perspective: 600px;
 	position: relative;
-	left: 42%;
-	top: 37%;
+	left: 45%;
+	top: 40%;
 	z-index: 999;
 }
 
@@ -234,6 +234,6 @@ button:hover {
 
 @media (min-width: 900px) {
 	.dice {
-		perspective: 1300px;
+		perspective: 2000px;
 	}
 }
