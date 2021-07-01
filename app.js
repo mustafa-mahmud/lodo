@@ -6,9 +6,11 @@ const btnNew = document.querySelector('.btn--new');
 
 let currentPlayer = 0;
 let currentNumber = 0;
-let scores = [0, 0];
+const sound = new Audio('sound.mp3');
 
 function rollDice() {
+  sound.play();
+
   let diceNumber = 0;
 
   const dice = [...document.querySelectorAll('.die-list')];
